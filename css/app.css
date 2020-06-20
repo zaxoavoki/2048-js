@@ -22,7 +22,27 @@ body {
 	font-size: 4em;
 	text-align: center;
 	font-weight: 800;
-	margin-bottom: 0;
+}
+
+#game-reset {
+	position: absolute;
+	bottom: 180px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	display: none;
+	padding: 10px 15px;
+	border-radius: 6px;
+	color: #fff;
+	background: #8f7a66;
+	cursor: pointer;
+	border: none;
+	font-size: 0.2em;
+	outline: none;
+}
+
+#game-reset:hover {
+	background: #7e6a57;
 }
 
 #score {
@@ -51,17 +71,14 @@ body {
 	height: 520px;
 	border-radius: 6px;
 	text-align: center;
-	line-height: 520px;
+	line-height: 480px;
 	font-size: 4.5em;
 	user-select: none;
 }
 
 .c {
-	padding: 15px;
-	width: 88px;
-	height: 88px;
+	padding: 5px;
 	border-radius: 10px;
-	line-height: 88px;
 	font-size: 2em;
 	background: rgba(238, 228, 218, 0.35);
 	border: solid 5px #bbada0;
@@ -82,36 +99,14 @@ body {
 	color: #fff !important;
 }
 
-._2 {
-	background: #eee4da;
-}
-._4 {
-	background: #ede0c8;
-}
-._8 {
-	background: #f2b179;
-}
-._16 {
-	background: #f59563;
-}
-._32 {
-	background: #f67c5f;
-}
-._64 {
-	background: #f65e3b;
-}
-._128 {
-	background: #edcf72;
-}
-._256 {
-	background: #edcc61;
-}
-._512 {
-	background: #e0bd4b;
-}
-._1024 {
-	background: #edc53f;
-}
-._2048 {
-	background: #edc22e;
-}
+._2 {background: #eee4da;}
+._4 {background: #ede0c8;}
+._8 {background: #f2b179;}
+._16 {background: #f59563;}
+._32 {background: #f67c5f;}
+._64 {background: #f65e3b;}
+._128 {background: #edcf72;}
+._256 {background: #edcc61;}
+._512 {background: #e0bd4b;}
+._1024 {background: #edc53f;}
+._2048 {background: #edc22e;}
